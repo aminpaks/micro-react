@@ -1,0 +1,12 @@
+{
+    "name": "masonweb",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "atlas": "yarn workspace @masonhub/atlas start"
+    }
+}
