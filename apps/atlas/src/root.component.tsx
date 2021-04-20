@@ -9,7 +9,7 @@ const LazySomething = loadable(
 const Home: FC<RouteComponentProps> = () => {
   return (
     <div>
-      <section>Hello! Home is mounted!</section>
+      <section>Hello! This is ATLAS Home!</section>
     </div>
   );
 };
