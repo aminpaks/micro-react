@@ -11,6 +11,7 @@ const lifecycles = singleSpaReact({
     // Customize the root error boundary for your microfrontend here.
     return <React.Fragment />;
   },
+  domElementGetter: () => document.querySelector('#main-content')!,
 });
 
 export const { bootstrap, mount, unmount } = lifecycles;

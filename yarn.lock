@@ -1001,7 +1001,7 @@
     source-map "^0.5.7"
     stylis "^4.0.3"
 
-"@emotion/babel-preset-css-prop@11.2.0":
+"@emotion/babel-preset-css-prop@11.2.0", "@emotion/babel-preset-css-prop@^11.2.0":
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/@emotion/babel-preset-css-prop/-/babel-preset-css-prop-11.2.0.tgz#c7e945f56b2610b438f0dc8ae5253fc55488de0e"
   integrity sha512-9XLQm2eLPYTho+Cx1LQTDA1rATjoAaB4O+ds55XDvoAa+Z16Hhg8y5Vihj3C8E6+ilDM8SV5A9Z6z+yj0YIRBg==
@@ -1032,7 +1032,7 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.5.tgz#2c40f81449a4e554e9fc6396910ed4843ec2be50"
   integrity sha512-igX9a37DR2ZPGYtV6suZ6whr8pTFtyHL3K/oLUotxpSVO2ASaprmAe2Dkq7tBo7CRY7MMDrAa9nuQP9/YG8FxQ==
 
-"@emotion/react@11.1.5":
+"@emotion/react@11.1.5", "@emotion/react@^11.1.5":
   version "11.1.5"
   resolved "https://registry.yarnpkg.com/@emotion/react/-/react-11.1.5.tgz#15e78f9822894cdc296e6f4e0688bac8120dfe66"
   integrity sha512-xfnZ9NJEv9SU9K2sxXM06lzjK245xSeHRpUh67eARBm3PBHjjKIZlfWZ7UQvD0Obvw6ZKjlC79uHrlzFYpOB/Q==
@@ -1313,7 +1313,7 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.12.tgz#431ec342a7195622f86688bbda82e3166ce8cb28"
   integrity sha512-6RglhutqrGFMO1MNUXp95RBuYIuc8wTnMAV5MUhLmjTOy78ncwOw7RgeQ/HeymkKXRhZd0s2DNrM1rL7unk3MQ==
 
-"@reach/router@1.3.4":
+"@reach/router@1.3.4", "@reach/router@^1.3.4":
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.4.tgz#d2574b19370a70c80480ed91f3da840136d10f8c"
   integrity sha512-+mtn9wjlB9NN2CNnnC/BRYtwdKBfSyyasPYraNAyvaV1occr/5NnB4CVzjEZipNHwYebQwcndGUmpFzxAUoqSA==

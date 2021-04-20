@@ -34,7 +34,11 @@
       "imports": {
         "react": "https://cdn.jsdelivr.net/npm/react@16.13.1/umd/react.production.min.js",
         "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@16.13.1/umd/react-dom.production.min.js",
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js",
+        "@masonhub/root-config": "/masonhub-root-config.js",
+        "@masonhub/hud": "/hud/masonhub-hud.js",
+        "@masonhub/oms": "/oms/masonhub-oms.js",
+        "@masonhub/atlas": "/atlas/masonhub-atlas.js"
       }
     }
   </script>
@@ -48,7 +52,9 @@
     {
       "imports": {
         "@masonhub/root-config": "//localhost:9000/masonhub-root-config.js",
-        "@masonhub/atlas": "//localhost:8080/masonhub-atlas.js"
+        "@masonhub/hud": "//localhost:3300/masonhub-hud.js",
+        "@masonhub/oms": "//localhost:3305/masonhub-oms.js",
+        "@masonhub/atlas": "//localhost:3306/masonhub-atlas.js"
       }
     }
   </script>
@@ -70,7 +76,7 @@
   <% } %>
 </head>
 <body>
-  <main></main>
+  <div id="root"></div>
   <script>
     System.import('@masonhub/root-config');
   </script>
